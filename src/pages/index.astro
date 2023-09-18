@@ -1,22 +1,24 @@
 ---
 import MainLayout from "../layouts/MainLayout.astro";
-const name = "John";
+const name = "Melaku";
 ---
 
 <MainLayout
-  title="John Doe Portfolio Site"
-  seoTitle="John Does, Software Engineer Portfolio"
-  seoDesc="Software Engineer who expertise in Astro, React, NextJS and Node"
+  title="Melaku Garcia Portfolio Site"
+  seoTitle="Melaku Garcia, Web Developer Portfolio"
+  seoDesc="Web Developer who expertise in React, JS, Node and Java"
 >
   <div class="w-8/12 md:w-6/12 mx-auto">
     <h1
       class="text-5xl md:text-6xl text-center drop-shadow-[0px_35px_35px_rgba(39,245,131,0.6)]"
     >
-      Hey 👋, I am John Doe
+      Hey 👋🏾, I am <br>Melaku Garcia
     </h1>
     <div id="typed-strings">
-      <p>I am a <strong>Software Engineer</strong></p>
-      <p>I <em>work</em> with Astro, React, NextJS, node.</p>
+      <p>I am a <strong>Web Developer</strong></p>
+      <p>I <em>work</em> with React, NodeJs, Java, SQL, Astro, Vite...</p>
+      <p>I am <em>learning</em> Kotlin, MongoDB, Sass...</p>
+      <p>I <em>study at</em> <br>IES El Lago && Universidad Politecnica de Madrid.</p>
     </div>
 
     <div class="text-center mt-6"><span id="typed"></span></div>
@@ -28,7 +30,7 @@ const name = "John";
 
   var typed = new Typed("#typed", {
     stringsElement: "#typed-strings",
-    typeSpeed: 50,
+    typeSpeed: 30,
     loop: true,
   });
 </script>
