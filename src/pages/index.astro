@@ -5,28 +5,31 @@ const name = "Melaku";
 
 <MainLayout
   title="Melaku Garcia Portfolio Site"
-  seoTitle="Melaku Garcia, Web Developer Portfolio"
+  seoTitle="Melaku Garcia Portfolio"
   seoDesc="Web Developer who expertise in React, JS, Node and Java"
 >
-  <div class="w-8/12 md:w-6/12 mx-auto">
+<meta charset="UTF-8">
+<div class="w-8/12 md:w-6/12 mx-auto">
     <h1 class="text-6xl md:text-7xl text-center drop-shadow-[0px_35px_35px_rgba(39,245,131,0.6)]">
       Hey 👋🏾, I am <br>Melaku Garcia
     </h1>
-    <div id="typed-strings" class="text-4xl md:text-4xl" >
+    <div id="typed-strings" class="text-3xl md:text-2xl" >
       <p>I am a <strong>Web Developer</strong></p>
       <p>I <em>work</em> with React, NodeJs, Java, SQL, Astro, Vite...</p>
       <p>I am <em>learning</em> Kotlin, MongoDB, Sass...</p>
       <p>I <em>study at</em> <br>IES El Lago && Universidad Politecnica de Madrid.</p>
     </div>
 
-    <div class="text-center mt-6"><span id="typed"></span></div>
+    <div class="text-center mt-6"><span id="tipado"></span></div>
   </div>
 </MainLayout>
 
- <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js">
-  var typed = new Typed("#typed", {
+<script>
+  import Typed from "typed.js";
+
+  var typed = new Typed("#tipado", {
     stringsElement: "#typed-strings",
-    typeSpeed: 40,
+    typeSpeed: 50,
     loop: true,
   });
 </script>
