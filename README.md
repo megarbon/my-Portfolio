@@ -38,6 +38,6 @@ Please note that this website is a work in progress, and I will be continuously 
 
 Feel free to explore the site, and don't hesitate to reach out if you have any questions or feedback!
 
-🤍 This portfolio was created following Oliver G's YouTube course.
+🤍 This portfolio was created following Oliver G's [YouTubes's Course](https://www.youtube.com/@oliverthedev).
 
 Feel free to check [astros documentation](https://docs.astro.build) or jump into their [Discord server](https://astro.build/chat).
