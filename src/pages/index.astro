@@ -9,12 +9,10 @@ const name = "Melaku";
   seoDesc="Web Developer who expertise in React, JS, Node and Java"
 >
   <div class="w-8/12 md:w-6/12 mx-auto">
-    <h1
-      class="text-5xl md:text-6xl text-center drop-shadow-[0px_35px_35px_rgba(39,245,131,0.6)]"
-    >
+    <h1 class="text-6xl md:text-7xl text-center drop-shadow-[0px_35px_35px_rgba(39,245,131,0.6)]">
       Hey 👋🏾, I am <br>Melaku Garcia
     </h1>
-    <div id="typed-strings">
+    <div id="typed-strings" class="text-4xl md:text-4xl" >
       <p>I am a <strong>Web Developer</strong></p>
       <p>I <em>work</em> with React, NodeJs, Java, SQL, Astro, Vite...</p>
       <p>I am <em>learning</em> Kotlin, MongoDB, Sass...</p>
@@ -25,13 +23,10 @@ const name = "Melaku";
   </div>
 </MainLayout>
 
- 
- <script>
-  import Typed from "typed.js";
-
+ <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js">
   var typed = new Typed("#typed", {
     stringsElement: "#typed-strings",
-    typeSpeed: 50,
+    typeSpeed: 40,
     loop: true,
   });
 </script>
