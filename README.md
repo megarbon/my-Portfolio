@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Astro Portfolio By Oliver
 
 ![astro_thumn](https://user-images.githubusercontent.com/32399333/235362624-7c1e5ae2-fb28-4a79-b812-c51217a15f65.png)
@@ -18,3 +19,6 @@ All commands are run from the root of the project, from a terminal:
 ## 👀 Want to learn more?
 
 Feel free to check [astros documentation](https://docs.astro.build) or jump into their [Discord server](https://astro.build/chat).
+=======
+# my-Portfolio
+>>>>>>> a6ca6d018c6d93736e9fa5b12df03adaea869caf
