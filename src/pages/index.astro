@@ -1,36 +1,48 @@
 ---
 import MainLayout from "../layouts/MainLayout.astro";
+
 const name = "Melaku";
 ---
 
-<MainLayout
-  title="Melaku Garcia Portfolio Site"
-  seoTitle="Melaku Garcia Portfolio"
-  seoDesc="Web Developer who expertise in React, JS, Node and Java"
->
-<meta charset="UTF-8">
-<div class="w-8/12 md:w-6/12 mx-auto">
-    <h1 class="text-6xl md:text-7xl text-center drop-shadow-[0px_35px_35px_rgba(39,245,131,0.6)]">
-      Hey 👋🏾, I am <br>Melaku Garcia
-    </h1>
-    <div id="typed-strings" class="text-3xl md:text-2xl" >
-      <p>I am a <strong>Web Developer</strong></p>
-      <p>I <em>work</em> with React, NodeJs, Java, SQL, Astro, Vite...</p>
-      <p>I am <em>learning</em> Kotlin, MongoDB, Sass...</p>
-      <p>I <em>study at</em> <br>IES El Lago && Universidad Politecnica de Madrid.</p>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Melaku Garcia Portfolio Site</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+  <MainLayout
+    title="Melaku Garcia Portfolio Site"
+    seoTitle="Melaku Garcia Portfolio"
+    seoDesc="Web Developer who expertise in React, JS, Node and Java"
+  >
+    <div class="w-8/12 md:w-6/12 mx-auto">
+      <h1 class="text-6xl md:text-7xl text-center drop-shadow-[0px_35px_35px_rgba(39,245,131,0.6)]">
+        Hey 👋🏾, I am <br>Melaku Garcia
+      </h1>
+      <div id="typed-strings" class="text-3xl md:text-2xl">
+        <p>I am a <strong>Web Developer</strong></p>
+        <p>I <em>work</em> with React, NodeJs, Java, SQL, Astro, Vite...</p>
+        <p>I am <em>learning</em> Kotlin, MongoDB, Sass...</p>
+        <p>I <em>study at</em> <br>IES El Lago && Universidad Politecnica de Madrid.</p>
+      </div>
+
+      <div class="text-center mt-6"><span id="tipado"></span></div>
     </div>
+  </MainLayout>
 
-    <div class="text-center mt-6"><span id="tipado"></span></div>
-  </div>
-</MainLayout>
+  <!-- Load Typed.js from a CDN asynchronously -->
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js" async></script>
 
-<script>
-  import Typed from "typed.js";
-
-  var typed = new Typed("#tipado", {
-    stringsElement: "#typed-strings",
-    typeSpeed: 50,
-    loop: true,
-  });
-</script>
-
+  <!-- Your JavaScript code -->
+  <script>
+    import Typed from "typed.js";
+  
+    var typed = new Typed("#tipado", {
+      stringsElement: "#typed-strings",
+      typeSpeed: 50,
+      loop: true,
+    });
+  </script>
+</body>
+</html>
